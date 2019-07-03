@@ -1,0 +1,80 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.yaesta_imge{
+    width: 10%;
+    text-align: center;
+    padding-top: 30PX;
+}
+.contenido{
+    display: flex;
+    width: 70%;
+}
+.navbar_contact{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    width: 20%
+
+}
+
+.navbar_contact img{
+    margin-right: 15px;
+}
+nav ul{
+    padding: 0px;
+}
+nav li{
+    /* padding-left:20px; */
+    padding: 0px;
+    list-style: none; 
+    color: #EF4323;   
+}
+nav li h1{
+    margin: 0px;   
+    color: #EF4323;
+}
+
+.telefono{
+    color:#2A53AD;
+    /* padding-left: 20px; */
+}
+.contact_telfonica{
+    display:flex;
+    align-items: center;
+    width: 80%;
+}
+.buscar{
+    margin-left: 20px;
+    width: 80%;
+    height:35px;
+    border:  2px solid #2A53AD;
+    border-radius: 5px;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+.saludo{
+    color: #2A53AD;
+    /* margin: 0px 0px 50px  40px ; */
+    width: 20%;
+}
+.saludo img{
+    width: 33px;
+    height: 30px;
+    margin-bottom: 31px;
+    margin: 0px;
+}
+.saludo h3{
+    margin: 0px;
+}

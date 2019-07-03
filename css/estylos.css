@@ -68,13 +68,36 @@ nav li h1{
     color: #2A53AD;
     /* margin: 0px 0px 50px  40px ; */
     width: 20%;
+
 }
 .saludo img{
     width: 33px;
     height: 30px;
-    margin-bottom: 31px;
-    margin: 0px;
+    /* padding-bottom: 31px; */
+    /* margin: 0px; */
 }
 .saludo h3{
     margin: 0px;
+    /* text-align: center; */
+}
+td{
+    text-align: center;
+    width: 75px;
+}
+table{
+    padding-bottom: 20px;
+}
+
+.ofertas{
+    /* border: 1px solid red; */
+    width: 70%;
+    position: absolute;
+    top: 105px;
+    left: 245px;
+}
+.ofertas ul{
+    text-align: center;
+}
+.ofertas ul li{
+    display: inline;
 }

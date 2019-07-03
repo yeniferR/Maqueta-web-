@@ -87,13 +87,20 @@ td{
 table{
     padding-bottom: 20px;
 }
+ a{
+    text-decoration: none;
+    color: #2A53AD;
+}
+.ofertas  a{
+    color: #EF4323;
+}
 
 .ofertas{
     /* border: 1px solid red; */
     width: 70%;
     position: absolute;
     top: 105px;
-    left: 245px;
+    left: 240px;
 }
 .ofertas ul{
     text-align: center;

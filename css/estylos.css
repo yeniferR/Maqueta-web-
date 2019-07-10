@@ -108,3 +108,44 @@ table{
 .ofertas ul li{
     display: inline;
 }
+.products{
+    display: flex;
+    padding: 20px;
+}
+/*--------------------------------- main section--------- */
+.producto{
+    padding: 10px;
+    display: flex;
+}
+
+.producto ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.content{
+    /* border: 1px solid green; */
+    padding: 10px;
+    margin-left: 10px;
+    list-style:none ;
+    display:flex;
+}
+.content ul{
+    padding: 0px;
+    margin-right: 90px;
+}
+.content .imgProduct{
+    margin-right: 130px;
+    margin-bottom: 30px;
+}
+
+.producto .content{
+    color: white;
+    /* background-color: black; */
+    padding: 20px;
+    border: 1px solid #a0b8ec;    
+}
+.description{
+    background-color: red;
+
+}

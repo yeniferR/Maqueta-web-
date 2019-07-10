@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estylos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <title>Yenifer</title>
 </head>
 
-<body>
+<body onload="load()">
     <!-- aqui empieza el navbar -->
     <nav>
         <div class="yaesta_imge">
@@ -91,20 +92,75 @@
                         </li>
                     </ul>
                     <img class="imgProduct" src="imagenes/producto.png" alt="producto">
+                    <img class="original" src="imagenes/original.png" alt="original" height="100">
 
                 </div>
             </div>
             <div class="description">
+                <h1>Samsung</h1>
+                <p>Ref...</p>
+                <img src="imagenes/samsung.png" alt="samsung">
+                <p>Diseño ergonómico en metal y vidrio, delgado con Pantalla QHD SUPER AMOLED de 5,7" Experiencia S-Pen
+                    mejorada,
+                    mayor precisión y mayor facilidad. Podrás escribir incluso con la pantalla apagada. Con la garantía
+                    Samsung
+                    Mobile Care que protege tu equipo (Aplica para equipos comprados antes del 29 de febrero del 2016).
+                    VER MÁS
+                    <br> <br>
+                    COLOR:
+                </p>
+                <ul class="botones">
+                    <li>
+                        <input class="botonWhite" type="button">
+                        <input class="botonBlack" type="button">
+                    </li>
+                </ul>
+                <a href="">Comparar con productos similares</a>
+            </div>
 
+            <div style="text-align: center;">
+                <p class="compartir">Compártelo en:</p>
+                <i class="fab fa-facebook-square" style="  font-size:24px; color:rgb(160, 184, 236)"></i>
+                <i class="fab fa-instagram" style="font-size:24px; color:rgb(160, 184, 236)"></i>
+                <i class="fab fa-twitter-square" style=" font-size:24px; color:rgb(160, 184, 236)"></i>
             </div>
-            <div class="producto">
-                <div class="content">
-                    <!-- hola -->
-                </div>
-            </div>
+
         </div>
     </section>
+    <script>
 
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+
+
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

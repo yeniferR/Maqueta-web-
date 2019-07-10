@@ -108,11 +108,12 @@ table{
 .ofertas ul li{
     display: inline;
 }
+
+/*--------------------------------- main section--------- */
 .products{
     display: flex;
     padding: 20px;
 }
-/*--------------------------------- main section--------- */
 .producto{
     padding: 10px;
     display: flex;
@@ -129,23 +130,53 @@ table{
     margin-left: 10px;
     list-style:none ;
     display:flex;
+    position: relative;
 }
 .content ul{
     padding: 0px;
     margin-right: 90px;
 }
-.content .imgProduct{
+ .imgProduct{
     margin-right: 130px;
     margin-bottom: 30px;
 }
 
 .producto .content{
-    color: white;
+    /* color: white; */
     /* background-color: black; */
     padding: 20px;
     border: 1px solid #a0b8ec;    
 }
 .description{
-    background-color: red;
+    /* border: 1px solid red; */
+    /* background-color: red; */
+    width: 20%;
+    color:#17296C;
+    font-family: Verdana,sans-serif !important;
+    margin: 10px;
+}
+.original{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.botones{
+    list-style: none;
+}
 
+.botones input {
+    width: 40px;
+    height: 40px;
+    border:1px solid black;
+}
+.botonWhite{
+background-color: white;
+}
+.botonBlack{
+background-color: black;
+}
+.compartir{
+    font-size:14px !important;
+    
 }

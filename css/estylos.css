@@ -202,6 +202,7 @@ background-color: black;
 .listAgregar{
     /* position:absolute; */
     list-style: none;
+    padding: 0px;
 }
 .cero1{
     text-decoration: line-through;

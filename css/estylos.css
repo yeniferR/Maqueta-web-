@@ -206,13 +206,12 @@ background-color: black;
 }
 .cero1{
     text-decoration: line-through;
+    padding-left: 55px;
 }
 .cero2{
     color: #EF4323;
 }
-.centrandoCeros{
-   
-}
+
 .buttonNaranja{
     border-radius: 10px;
     border: 1px solid #EF4323;

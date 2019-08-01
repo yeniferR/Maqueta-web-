@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <title>Yenifer</title>
 </head>
-
-<body onload="load()">
+<!-- onload="load()" -->
+<body >
     <!-- aqui empieza el navbar -->
     <nav>
         <div class="yaesta_imge">
@@ -118,16 +118,35 @@
                 <a href="">Comparar con productos similares</a>
             </div>
 
-            <div style="text-align: center;">
+            <div class="compartirTodo">
                 <p class="compartir">Compártelo en:</p>
-                <i class="fab fa-facebook-square" style="  font-size:24px; color:rgb(160, 184, 236)"></i>
+                <i class="fab fa-facebook-square" style="  font-size:24px; color:rgb(160, 184, 236)" hspace="10"></i>
                 <i class="fab fa-instagram" style="font-size:24px; color:rgb(160, 184, 236)"></i>
-                <i class="fab fa-twitter-square" style=" font-size:24px; color:rgb(160, 184, 236)"></i>
+                <i class="fab fa-twitter-square" style=" font-size:24px; color:rgb(160, 184, 236)" hspace="10"></i>
+
+                <div class="cajaCantidad">
+                    <p class="compartir">Cantidad</p>
+                     <ul class="listAgregar">
+                         <li><input class="button" value="1" ></li>
+                         <br>
+                         <li>Agregar proteción por $10</li>
+                         <table>
+                             <tr>
+                                 <td class="cero1"><p>00.00</p></td>
+                                 <td class="cero2"><p>00.00</p></td>
+                             </tr>
+                         </table>
+                         <li><input class="buttonNaranja" value="¡COMPRA YA!"></li>
+                         <br>
+                         <li><input class="buttonAzuel" value=" AGREGAR A FAVORITOS"></li>
+                     </ul>
+                </div>
             </div>
+            
 
         </div>
     </section>
-    <script>
+    <!-- <script>
 
         var myIndex = 0;
         carousel();
@@ -160,7 +179,7 @@
                 modal.style.display = "none";
             }
         }
-    </script>
+    </script> -->
 </body>
 
 </html>

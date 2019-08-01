@@ -178,5 +178,52 @@ background-color: black;
 }
 .compartir{
     font-size:14px !important;
+}
+.compartirTodo{
+   text-align: center;
+}
+.cajaCantidad{
+    border:  1px  solid #a0b8ec ;
+    height: 287px;
+    width: 311px;
+    margin-top: 10px;
+}
+
+.button{
+    border-radius: 10px;
+    border: 1px solid #a0b8ec;
+    width: 50%;
+    color: #2A53AD;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
     
+}
+.listAgregar{
+    position:absolute;
+    list-style: none;
+}
+.cero1{
+    text-decoration: line-through;
+}
+.cero2{
+    color: #EF4323;
+}
+.buttonNaranja{
+    border-radius: 10px;
+    border: 1px solid #EF4323;
+    text-align: center;
+    background-color: #EF4323;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+}
+.buttonAzuel{
+    border-radius: 10px;
+    border: 1px solid #a0b8ec;
+    text-align: center;
+    color: #2A53AD;
+    font-weight: bold;
+    padding: 6px;
+
 }

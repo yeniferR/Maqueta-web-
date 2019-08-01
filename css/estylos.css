@@ -206,10 +206,13 @@ background-color: black;
 }
 .cero1{
     text-decoration: line-through;
-    padding-left: 55px;
+    padding-left: 60px;
+    font-size: 16px;
 }
 .cero2{
     color: #EF4323;
+    padding-left: 30px;
+    font-size: 16px;
 }
 
 .buttonNaranja{
@@ -220,6 +223,7 @@ background-color: black;
     color: white;
     font-weight: bold;
     padding: 6px;
+    font-size: 10px;
 }
 .buttonAzuel{
     border-radius: 10px;
@@ -228,5 +232,6 @@ background-color: black;
     color: #2A53AD;
     font-weight: bold;
     padding: 6px;
+    font-size: 10px;
 
 }

@@ -200,7 +200,7 @@ background-color: black;
     
 }
 .listAgregar{
-    position:absolute;
+    /* position:absolute; */
     list-style: none;
 }
 .cero1{
@@ -208,6 +208,9 @@ background-color: black;
 }
 .cero2{
     color: #EF4323;
+}
+.centrandoCeros{
+   
 }
 .buttonNaranja{
     border-radius: 10px;

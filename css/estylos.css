@@ -127,6 +127,8 @@ table{
 
 .content{
     /* border: 1px solid green; */
+    width: 30%;
+    height: 432px;
     padding: 10px;
     margin-left: 10px;
     list-style:none ;
@@ -139,10 +141,10 @@ table{
     list-style-type: none;
     
 }
- .imgProduct{
+ /* .imgProduct{
     margin-right: 130px;
     margin-bottom: 30px;
-}
+} */
 
  .content{
     /* color: white; */
@@ -207,10 +209,14 @@ background-color: black;
     list-style: none;
     padding: 0px;
 }
+
 .cero1{
     text-decoration: line-through;
     padding-left: 60px;
     font-size: 16px;
+}
+.cero1P{
+    margin-left: 20px;
 }
 .cero2{
     color: #EF4323;

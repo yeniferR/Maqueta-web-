@@ -71,7 +71,17 @@
    .imgBanner{
        display: inherit;
    }
-
+   .cero1P{
+    margin-left: 20px;
+}
+.cero1 {
+    padding-left: 90px;
+}
+ .content{
+     width: 90%;
+     /* padding: 0px; */
+     margin:0px; 
+ }
    
   
 

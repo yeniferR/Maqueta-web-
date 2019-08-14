@@ -38,7 +38,7 @@
     }
     .description{
         width: 100%;
-        margin-top: 120px;
+        margin-top: 160px;
     }
    .botones{
        padding: 0px;
@@ -82,9 +82,13 @@
      /* padding: 0px; */
      margin:0px; 
  }
- /* .view{
-    padding: 5px;
- } */
+ .description-Ref{
+     /* position: absolute; */
+    width: 100%;
+    margin-top: 560px;
+   right: -11px;
+
+ }
    
   
 

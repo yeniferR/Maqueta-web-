@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estylos.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script type="text/javascript" src="scripts/imagenes.json"></script>
+    <script type="text/javascript" src="scripts/myscript.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <title>Yenifer</title>
 </head>
-<!-- onload="load()" -->
 
-<body>
+
+<body onload="load()" >
     <!-- aqui empieza el navbar -->
     <nav>
         <div class="yaesta_imge">
@@ -95,14 +97,31 @@
                             <img src="imagenes/envio1.png" alt="envio1">
                         </li>
                     </ul>
-                    <img class="imgProduct" src="imagenes/producto.png" alt="producto">
+                     <div class="mySlides">
+                            <div class="description-Ref">
+                                    <h1 id="nombre"></h1>
+                                    <p id="referencia"></p>
+                            </div> 
+                        <img class="imgProduct" src="imagenes/producto.png" alt="producto">
+                         
+                        
+                    </div>
+                    <div class="mySlides">
+                            <div class="description-Ref">
+                                    <h1 id="nombre4"></h1>
+                                    <p id="referencia4"></p>
+                            </div> 
+                        <img class=" imgProduct" src="imagenes/modal.png"  alt="producto">
+                    </div>
+                    <!-- <div></div> -->
+                    
                     <img class="original" src="imagenes/original.png" alt="original" height="100">
 
                 </div>
             
-            <div class="description">
-                <h1>Samsung</h1>
-                <p>Ref...</p>
+            <div class=" description">
+                <!-- <h1>Samsung</h1>
+                <p >Ref...</p> -->
                 <img src="imagenes/samsung.png" alt="samsung">
                 <div class="description-parrafo">
                     <p>Diseño ergonómico en metal y vidrio, delgado con Pantalla QHD SUPER AMOLED de 5,7" Experiencia S-Pen
@@ -483,8 +502,7 @@
     </footer>
     <!-- Aquí termina la seccion de los rows celulares -->
 
-    <!-- <script>
-
+    <script>
         var myIndex = 0;
         carousel();
 
@@ -516,7 +534,7 @@
                 modal.style.display = "none";
             }
         }
-    </script> -->
+    </script>
 
 </body>
 

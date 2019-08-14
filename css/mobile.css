@@ -26,7 +26,11 @@
     }
     .producto ul{
         padding: 0px;
-        text-align: center;
+        position: absolute;
+        /* bottom: 40px;
+        right: 0px; */
+        top: 680px;
+        margin-left: 30px;
     }
     .rows{
         display: inline;
@@ -52,12 +56,7 @@
    .imgProduct{
        margin: 0px;
    }
-   .producto ul{
-    position: absolute;
-    /* bottom: 40px;
-    right: 0px; */
-    top: 680px;
-   }
+  
 
   
 }

@@ -217,7 +217,7 @@ background-color: black;
 
 .cero1{
     text-decoration: line-through;
-    padding-left: 60px;
+    padding-left: 75px;
     font-size: 16px;
     color: #17296C;
 }
@@ -316,6 +316,10 @@ ul li .rating{
     color:#3261C9;
     
 }
+.view{
+    padding: 10px;
+ }
+   
 .rows-celulares .center{
     text-align: center;
 }

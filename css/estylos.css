@@ -80,7 +80,7 @@ nav li h1{
     margin: 0px;
     /* text-align: center; */
 }
-td{
+table .saludotd{
     text-align: center;
     width: 75px;
 }
@@ -290,7 +290,7 @@ ul li .rating{
     padding: 5px;
 }
 .rows-celulares{
-    border: 1px solid red;
+    border: 1px solid green;
     max-width: 1360px;
     margin:auto;
 
@@ -346,10 +346,15 @@ ul li .rating{
 }
 .color-text{
     color: #121F4F;
+    /* font-size:11px; */
+}
+.color-textP{
+    font-size: 14px;
+    color:#203A82;
 }
 .color-button{
     text-align: center;
-    background-color: #f15b40;
+    background-color: #EF4323;
     /* #f15b40
     #f7735b */
     border: 0;
@@ -365,6 +370,86 @@ ul li .rating{
 .color-button:hover{
     background-color: #dd4227;
 }
+.table-row{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-row td, .table-row th{
+    padding: 10px;
+    text-align: left;
+    border-bottom:1px solid #a0b8ec;
+} 
+.table-row th{
+    font-size:12px;
+    color:#EF4323}
+.table-row td{
+    font-size:11px;
+    color: #121F4F;
+}
+/* .imgBanner{
+    display: flex;
+} */
+.imgBanner ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+}
+.imgBanner ul li{
+    display: inline;
+  ;
+}
+/* .banner{
+    margin:10px 13px;
+    padding:0;
+    float:left;
+} */
+/* .banner img{
+    width:100%;
+    height:auto;
+} */
+footer{
+    border: 1px solid red;
+}
+.pagos{
+    text-align: center;
+    font-weight: normal;
+    color: #3261C9;
+}
+.medios-pagos ul{
+    /* display: flex; */
+    list-style-type: none;
+    text-align: center; 
+}
+.medios-pagos ul li{
+    display: inline;
+}
+.imPagos{
+    margin:10px 13px;
+    align-items: center;
+   
+}
+.imPagos img{
+display:block;
+margin:auto;
+}
+
+/* Responsibe */
+@media screen and (max-width: 767px){
+    nav{
+        /* display:block; */
+        /* height: auto; */
+    }
+    .producto, .ofertas{
+        display: none;
+    }
+    .banner{
+        width:100%;
+    }
+
+  
+}
+
 
 
 

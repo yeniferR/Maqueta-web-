@@ -136,13 +136,15 @@ table{
 .content ul{
     padding: 0px;
     margin-right: 90px;
+    list-style-type: none;
+    
 }
  .imgProduct{
     margin-right: 130px;
     margin-bottom: 30px;
 }
 
-.producto .content{
+ .content{
     /* color: white; */
     /* background-color: black; */
     padding: 20px;
@@ -253,7 +255,9 @@ ul li .descripcion{
     padding-right: 50px;
     color: #EF4323;
 }
-
+.description-parrafo{
+    text-align: justify;
+}
 ul li .caracte-rating{
     font-size: 16px;
     font-weight: bold;
@@ -435,24 +439,6 @@ display:block;
 margin:auto;
 }
 
-/* Responsibe */
-@media screen and (max-width: 767px){
-  
-    .producto, .ofertas, .navbar_contact,.telefono,.saludotd .cuenta,.Yenifer{
-        display: none;
-    }
-    .banner{
-        width:100%;
-    }
-   
-    .buscar{
-        width:100%;
-        margin-left: 84px
-    }
-   
-
-  
-}
 
 
 

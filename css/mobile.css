@@ -1,0 +1,44 @@
+
+/* Responsibe */
+/* screen and (max-width: 767px) */
+@media (max-width: 767px){
+  body{
+    border: 1px solid red;
+  }
+    .ofertas, .navbar_contact,.telefono,.saludotd .cuenta,.Yenifer{
+        display: none;
+    }
+    .banner{
+        width:100%;
+    }
+   
+    .buscar{
+        width:100%;
+        margin-left: 84px
+    }
+
+    .products{
+        display: inherit;
+    }
+    .producto ul li{
+        display: inline;
+       padding: 0px;
+    }
+    .rows{
+        display: inline;
+    }
+    .description{
+        width: 100%;
+    }
+   .botones{
+       padding: 0px;
+   }
+   .cajaCantidad{
+       width: 100%;
+   }
+   .descripcion-producto ul{
+       padding: 0px;
+   }
+
+  
+}

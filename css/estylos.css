@@ -183,6 +183,7 @@ background-color: black;
 }
 .compartir{
     font-size:14px !important;
+    color:#17296C;
 }
 .compartirTodo{
    text-align: center;
@@ -204,6 +205,10 @@ background-color: black;
     padding: 5px;
     
 }
+
+.agregarP{
+    color: #17296C;
+}
 .listAgregar{
     /* position:absolute; */
     list-style: none;
@@ -214,6 +219,7 @@ background-color: black;
     text-decoration: line-through;
     padding-left: 60px;
     font-size: 16px;
+    color: #17296C;
 }
 .cero1P{
     margin-left: 20px;

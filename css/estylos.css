@@ -399,10 +399,11 @@ ul li .rating{
     display: inline;
   ;
 }
-.banner{
+/* .banner{
     margin:10px 13px;
-
-}
+    padding:0;
+    float:left;
+} */
 /* .banner img{
     width:100%;
     height:auto;

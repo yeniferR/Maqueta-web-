@@ -391,24 +391,26 @@ ul li .rating{
     font-size:11px;
     color: #121F4F;
 }
-/* .imgBanner{
+.imgBanner{
     display: flex;
-} */
-.imgBanner ul{
+}
+/* .imgBanner ul{
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     margin: 0px;
     text-align: center;
-}
-.imgBanner ul li{
+    box-shadow: 0 0 2px #c1bcbc;
+} */
+/* .imgBanner ul li{
     display: inline;
   ;
-}
-/* .banner{
-    margin:10px 13px;
-    padding:0;
-    float:left;
 } */
+.banner{
+    padding:10px 13px;
+    /* padding:0px; */
+    /* float:left; */
+    box-shadow: 0 0 2px #c1bcbc;
+}
 /* .banner img{
     width:100%;
     height:auto;

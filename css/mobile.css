@@ -10,6 +10,7 @@
     }
     .banner{
         width:100%;
+        padding: 0px;
     }
    
     .buscar{
@@ -56,6 +57,22 @@
    .imgProduct{
        margin: 0px;
    }
+ 
+   .rows-celular1,
+   .rows-celular2,
+   .rows-celular3,
+   .rows-celular4{
+       padding: 10px;
+   }
+   /* .imgBanner ul{
+       padding: 10px;
+   } */
+
+   .imgBanner{
+       display: inherit;
+   }
+
+   
   
 
   

@@ -1,7 +1,36 @@
 
-/* Responsibe */
-/* screen and (max-width: 767px) */
-@media (max-width: 767px){
+@media screen and (max-width:1024px){
+    .ofertas, .navbar_contact,.telefono,.saludotd .cuenta,.Yenifer{
+        display: none;
+    }
+    .banner{
+        width:100%;
+        padding: 0px;
+    }
+   
+    .buscar{
+        width:100%;
+        margin-left: 84px
+    }
+
+    .producto ul{
+        padding: 0px;
+    }
+    .imgProduct{
+        position: absolute;
+        right: 60px;
+    }
+    .description-Ref{
+        color:#17296C;
+        font-family: Verdana,sans-serif !important;
+        /* margin-left: 320px; */
+        position: absolute; 
+        top: 10px; 
+        margin-left: 185px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px){
   
     .ofertas, .navbar_contact,.telefono,.saludotd .cuenta,.Yenifer{
         display: none;
@@ -19,6 +48,7 @@
     .products{
         display: inherit;
     }
+
     .producto ul li{
         display: inline;
        padding: 0px;
@@ -46,9 +76,8 @@
    }
    .descripcion-producto ul{
        padding: 0px;
-      
    }
-
+ 
    .content ul{
        margin: 10px;
    }
@@ -90,8 +119,31 @@
  .content-footer{
     display: inline;
 }
-   
-  
 
-  
+.content-footer1 ul, .content-footer2 ul,.content-footer3 ul, .content-footer4 ul {
+    text-align: center;
 }
+
+
+}
+
+@media screen and (max-width: 480px){
+    /* body{
+
+    } */
+    }
+@media screen and (max-width: 320px){
+    .banner{
+        width:100%;
+        padding: 0px;
+    }
+   
+    .buscar{
+        width:100%;
+        margin-left: 84px
+    }
+    .producto{
+        padding: 0px;
+    }
+    
+    }

@@ -462,20 +462,17 @@ margin:auto;
 .content-footer{
     padding: 10px;
 }
-
-footer{
-    border: 1px solid red;
-    
-}
 .pagos{
     text-align: center;
     font-weight: normal;
     color: #3261C9;
+    
 }
 .medios-pagos ul{
     /* display: flex; */
     list-style-type: none;
     text-align: center; 
+    padding: 10px;
 }
 .medios-pagos ul li{
     display: inline;
@@ -485,16 +482,29 @@ footer{
 }
 .content-footer1 ul{
     list-style: none;
+    /* text-align: center; */
 }
 .content-footer ul li , .content-footer2 ul li{
     color: #203A82;
+    /* text-align: center; */
 }
 .content-footer2 ul{
     list-style: none;
 }
-.footer{
-    justify-content: space-between; 
+.content-footer3 ul{
+    list-style: none;
 }
+.content-footer4 ul{
+    list-style: none;
+}
+
+.designed{
+    text-align: center;
+    color: #203A82;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 
 
 

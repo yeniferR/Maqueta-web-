@@ -2,9 +2,7 @@
 /* Responsibe */
 /* screen and (max-width: 767px) */
 @media (max-width: 767px){
-  body{
-    border: 1px solid red;
-  }
+  
     .ofertas, .navbar_contact,.telefono,.saludotd .cuenta,.Yenifer{
         display: none;
     }
@@ -89,6 +87,9 @@
    right: -11px;
 
  }
+ .content-footer{
+    display: inline;
+}
    
   
 

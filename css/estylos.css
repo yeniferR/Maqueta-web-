@@ -442,8 +442,30 @@ ul li .rating{
     width:100%;
     height:auto;
 } */
+
+.imPagos{
+    margin:10px 13px;
+    align-items: center;
+   
+}
+.imPagos img{
+display:block;
+margin:auto;
+}
+
+/* footer */
+
+.footer{
+    max-width: 1360px;
+    margin:auto;
+}
+.content-footer{
+    padding: 10px;
+}
+
 footer{
     border: 1px solid red;
+    
 }
 .pagos{
     text-align: center;
@@ -458,14 +480,20 @@ footer{
 .medios-pagos ul li{
     display: inline;
 }
-.imPagos{
-    margin:10px 13px;
-    align-items: center;
-   
+.content-footer{
+    display: flex;
 }
-.imPagos img{
-display:block;
-margin:auto;
+.content-footer1 ul{
+    list-style: none;
+}
+.content-footer ul li , .content-footer2 ul li{
+    color: #203A82;
+}
+.content-footer2 ul{
+    list-style: none;
+}
+.footer{
+    justify-content: space-between; 
 }
 
 

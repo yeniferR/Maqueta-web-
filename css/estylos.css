@@ -126,14 +126,16 @@ table{
 }
 
 .content{
-    /* border: 1px solid green; */
-    width: 30%;
-    height: 432px;
-    padding: 10px;
+
+     width: 30%;
+    height: 432px; 
+    padding: 20px;
     margin-left: 10px;
+    border: 1px solid #a0b8ec;  
     list-style:none ;
     display:flex;
     position: relative;
+  
 }
 .content ul{
     padding: 0px;
@@ -146,12 +148,12 @@ table{
     margin-bottom: 30px;
 } */
 
- .content{
-    /* color: white; */
-    /* background-color: black; */
+ /* .content{
+     background-color: red;
+
     padding: 20px;
     border: 1px solid #a0b8ec;    
-}
+} */
 .description{
     /* border: 1px solid red; */
     /* background-color: red; */
@@ -453,15 +455,7 @@ display:block;
 margin:auto;
 }
 
-/* footer */
 
-.footer{
-    max-width: 1360px;
-    margin:auto;
-}
-.content-footer{
-    padding: 10px;
-}
 .pagos{
     text-align: center;
     font-weight: normal;
@@ -477,8 +471,18 @@ margin:auto;
 .medios-pagos ul li{
     display: inline;
 }
+
+/* footer */
+
+.footer{
+    max-width: 1360px;
+    margin:auto;
+}
+
 .content-footer{
     display: flex;
+    padding: 10px;
+    justify-content: center;
 }
 .content-footer1 ul{
     list-style: none;
